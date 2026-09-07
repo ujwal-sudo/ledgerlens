@@ -1,0 +1,36 @@
+# Core
+fastapi==0.110.0
+uvicorn[standard]==0.30.4
+python-dotenv==1.0.1
+
+# Database
+sqlalchemy==2.0.32
+sqlalchemy-utils==0.40.8
+
+# Financial
+decimal; python_version >= "3.11"
+
+# LLM
+google-generativeai==0.8.1
+
+# RAG/Vector
+faiss-cpu==1.8.0
+langchain==0.3.17
+langchain-community==0.3.17
+sentence-transformers==2.2.2
+
+# Frontend
+streamlit==1.43.0
+
+# Data generation
+faker==25.10.1
+
+# Testing
+pytest==8.3.4
+pytest-asyncio==0.23.3
+
+# Utilities
+pydantic==2.8.2
+pydantic-settings==2.2.1
+structlog==23.2.0
+tqdm==4.66.5
